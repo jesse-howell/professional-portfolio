@@ -39,3 +39,8 @@ header nav {
     display: wrap;
     flex-wrap: wrap;
 }
+/* added .projects article */
+.projects article {
+    width:auto;
+    margin:auto;
+}
