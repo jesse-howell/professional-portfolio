@@ -15,3 +15,8 @@ header {
     background-color: #9070e9;
     color: #ffffff;
 }
+/* added header h1 style */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
