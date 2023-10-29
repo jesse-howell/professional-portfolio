@@ -34,3 +34,8 @@ header nav {
     display: inline-block;
     margin-left: 25px;
 }
+/* added .projects */
+.projects {
+    display: wrap;
+    flex-wrap: wrap;
+}
