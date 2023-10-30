@@ -35,18 +35,26 @@ header nav {
     margin-left: 25px;
 }
 /* added .projects */
-.project.horiseon {
-    border-style: solid;
-    border-width: 1px;
-    border-radius: var(--border-radius);
-    padding: 10px;
-    flex: 0 0 300px;
-    transform: rotate(8deg);
-    box-shadow: 10px 10px 5px #aaaaaa;
-    margin: 20px;
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+
+
 }
 /* added .projects article */
 .projects article {
-    width:auto;
-    margin:auto;
+    width: calc(50% - 40px);
+    margin: 20px;
+    
 }
+
+.projects article:first-of-type {
+    width: calc(100% - 40px);
+    margin: 20px;
+    
+}
+
+.projects article:first-child img {
+    width: 100%;
+}
+
