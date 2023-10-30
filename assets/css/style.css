@@ -34,11 +34,16 @@ header nav {
     display: inline-block;
     margin-left: 25px;
 }
+
+.about-me img {
+    width: 15%;
+    display: flex;
+    margin: 20px;
+}
 /* added .projects */
 .projects {
     display: flex;
     flex-wrap: wrap;
-
 
 }
 /* added .projects article */
