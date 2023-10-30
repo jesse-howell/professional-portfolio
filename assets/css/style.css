@@ -51,8 +51,8 @@ h2 {
     font-size: 36px;
     color: black;
 }
-
-.about-me img {
+/* removed me from .about */
+.about img {
     width: 15%;
     display: flex;
     margin: 20px;
