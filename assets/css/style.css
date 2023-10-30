@@ -30,7 +30,8 @@ header nav {
     font-size: 20px;
 }
 /* added header nav display style */
-header nav {
+/* added ul and li */
+header nav ul li{
     display: inline-block;
     margin-left: 25px;
 }
