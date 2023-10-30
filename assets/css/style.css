@@ -45,11 +45,13 @@ header nav ul li{
 /* changed border radius to 10px */
 
 /* added h2 style */
+/* added underline */
 h2 {
     margin: 20px;
     display: inline-block;
     font-size: 36px;
     color: black;
+    text-decoration: underline;
 }
 /* removed me from .about */
 /* changed display to inline-block */
