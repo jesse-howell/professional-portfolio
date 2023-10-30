@@ -43,6 +43,14 @@ header nav ul li{
 /* added drop-shadow */
 /* added border-radius */
 /* changed border radius to 10px */
+
+/* added h2 style */
+h2 {
+    margin: 20px;
+    float:left;
+    font-size: 36px;
+    color: black;
+}
 .about-me img {
     width: 15%;
     display: flex;
