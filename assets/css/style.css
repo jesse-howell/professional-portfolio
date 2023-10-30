@@ -47,20 +47,21 @@ header nav ul li{
 /* added h2 style */
 h2 {
     margin: 20px;
-    float:left;
+    display: inline-block;
     font-size: 36px;
     color: black;
 }
 /* removed me from .about */
-/* added float left */
+/* changed display to inline-block */
 .about img {
     width: 15%;
-    display: flex;
+    display: inline-block;
     margin: 20px;
     filter: drop-shadow(10px 10px 10px gray);
     border-radius: 10px;
-    float: left;
+
 }
+
 /* added .projects */
 .projects {
     display: flex;
