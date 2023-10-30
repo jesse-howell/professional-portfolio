@@ -13,10 +13,11 @@ body {
 /* added header style */
 /* changed header color to gold */
 header {
+    /* changed background-color and color */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #9070e9;
-    color: gold;
+    background-color: slategray;
+    color: black
 }
 /* added header h1 style */
 header h1 {
