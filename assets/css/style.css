@@ -53,13 +53,15 @@ header nav {
     margin: 20px;
     
 }
-
+/* added aspect-ratio to first-child img */
 .projects article:first-child img {
     width: 100%;
+    aspect-ratio: 16/9;
 }
 /* added .projects article a and a:hover */
+/* changed display to block */
 .projects article a {
-    display: flex;
+    display: block;
     width: 100%;
     aspect-ratio: 16/9;
     overflow: hidden;
@@ -73,4 +75,10 @@ header nav {
     filter: saturate(1);
     box-shadow: 15px 5px 15px gray;
     
+}
+/* added .projects article img */
+.projects article img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16/9;
 }
