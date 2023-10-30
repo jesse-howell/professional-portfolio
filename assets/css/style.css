@@ -57,4 +57,20 @@ header nav {
 .projects article:first-child img {
     width: 100%;
 }
+/* added .projects article a and a:hover */
+.projects article a {
+    display: flex;
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    align-items: center;
+    transition: all .5s ease-in-out; 
+    filter: saturate(0) blur(5px);
 
+}
+
+.projects article a:hover {
+    filter: saturate(1);
+    box-shadow: 15px 5px 15px gray;
+    
+}
