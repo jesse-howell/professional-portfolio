@@ -34,7 +34,7 @@ header nav {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* added about-me img style */
 .about-me img {
     width: 15%;
     display: flex;
