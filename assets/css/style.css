@@ -36,11 +36,13 @@ header nav {
 }
 /* added about-me img style */
 /* added drop-shadow */
+/* added border-radius */
 .about-me img {
     width: 15%;
     display: flex;
     margin: 20px;
     filter: drop-shadow(10px 10px 10px gray);
+    border-radius: 20px;
 }
 /* added .projects */
 .projects {
