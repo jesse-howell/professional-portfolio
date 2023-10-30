@@ -37,12 +37,13 @@ header nav {
 /* added about-me img style */
 /* added drop-shadow */
 /* added border-radius */
+/* changed border radius to 10px */
 .about-me img {
     width: 15%;
     display: flex;
     margin: 20px;
     filter: drop-shadow(10px 10px 10px gray);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 /* added .projects */
 .projects {
@@ -69,14 +70,16 @@ header nav {
 }
 /* added .projects article a and a:hover */
 /* changed display to block */
+/* added border radius */
 .projects article a {
     display: block;
     width: 100%;
     aspect-ratio: 16/9;
     overflow: hidden;
     align-items: center;
-    transition: all .5s ease-in-out; 
+    transition: all 200ms ease-in-out; 
     filter: saturate(0) blur(5px);
+    border-radius: 10px;
 
 }
 
