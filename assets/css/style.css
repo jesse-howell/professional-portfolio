@@ -35,10 +35,12 @@ header nav {
     margin-left: 25px;
 }
 /* added about-me img style */
+/* added drop-shadow */
 .about-me img {
     width: 15%;
     display: flex;
     margin: 20px;
+    filter: drop-shadow(10px 10px 10px gray);
 }
 /* added .projects */
 .projects {
