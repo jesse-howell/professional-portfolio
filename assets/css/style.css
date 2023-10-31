@@ -54,9 +54,7 @@ header nav ul li {
 a:link {
     color: var(--light-color);
 }
-a:visited {
-    
-}
+/* removed a:visited */
 /* added about-me img style */
 /* added drop-shadow */
 /* added border-radius */
