@@ -45,12 +45,18 @@ header nav {
 }
 /* added header nav display style */
 /* added ul and li */
-header nav ul li{
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
     
 }
 
+a:link {
+    color: var(--light-color);
+}
+a:visited {
+    
+}
 /* added about-me img style */
 /* added drop-shadow */
 /* added border-radius */
