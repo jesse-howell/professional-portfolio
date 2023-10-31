@@ -67,7 +67,8 @@ h2 {
 }
 /* removed me from .about */
 /* changed display to inline-block */
-.about img {
+/* changed .about to .bio */
+.bio img {
     width: 15%;
     display: inline-block;
     margin: 20px;
