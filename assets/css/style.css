@@ -50,9 +50,18 @@ header nav ul li {
     margin-left: 25px;
     
 }
-
+/* added anchor link styles */
 a:link {
     color: var(--light-color);
+}
+a:visited {
+    color: goldenrod;
+}
+a:hover {
+    color: burlywood;
+}
+a:active {
+    text-decoration: none;
 }
 /* removed a:visited */
 /* added about-me img style */
